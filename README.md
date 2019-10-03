@@ -7,5 +7,11 @@ Prerequisites:
 To run:
 	- `./sendCSV.sh`
 
+Edit variables within `sendCSV.sh`:
+	`DIRPATH`
+	`SUBJECT`
+	`RECIPIENT`
+
+
 If not set as executable:
 	- `sudo chmod 777 sendCSV.sh`
