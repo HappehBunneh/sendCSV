@@ -12,10 +12,9 @@ To run:
 
 Edit variables within `sendCSV.sh`:
 
-`DIRPATH`
-`SUBJECT`
-`RECIPIENT`
-
+* `DIRPATH`
+* `SUBJECT`
+* `RECIPIENT`
 
 If not set as executable:
 	
