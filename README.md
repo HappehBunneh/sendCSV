@@ -1,21 +1,20 @@
 # sendCSV
-Shell script to send the latest csv file made
+Python script to send csv files in a directory to an email as a zip
 
 Prerequisites:
 
-* Mutt (`sudo apt-get install mutt`)
-* Sendmail (`sudo apt-get install sendmail`)
+* Python
 
 To run:
 	
-`./sendCSV.sh`
+`python sendCSV.py`
 
-Edit variables within `sendCSV.sh`:
+You will need a config file `config.json`:
+```
+	{
+		"username":"username@email.com",
+		"password:"password",
+		"directory":"fullpath"
+	}
+```
 
-* `DIRPATH`
-* `SUBJECT`
-* `RECIPIENT`
-
-If not set as executable:
-	
-`sudo chmod 775 sendCSV.sh`
